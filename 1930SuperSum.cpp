@@ -1,6 +1,7 @@
 #include <iostream>
 #include <stdio.h>
 using namespace std;
+
 int bucket[15][15];
 
 void init_bucket(void)
