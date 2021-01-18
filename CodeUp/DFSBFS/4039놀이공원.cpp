@@ -33,9 +33,7 @@ int bfs(int n, int m)
 	int arr[4][2] = {{0,1}, {0,-1}, {1,0}, {-1,0}};
 
 	Node node, temp;
-	node.n = 1;
-	node.m = 1;
-	node.lev = 1;
+	node = {1, 1, 1}; //g++ -std=c++11 4039놀이공원.cpp;./a.out
 	que.push(node);
 	while (!que.empty())
 	{

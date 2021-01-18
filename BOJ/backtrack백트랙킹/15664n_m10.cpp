@@ -49,6 +49,13 @@ void	dfs(int lev, int n, int m)
 			dfs(lev + 1, n, m);
 			visited[i] = 0;
 		}
+			if (lev > 0 && (printarr[lev - 1] > arr[i]))
+				continue;
+			visited[i] = 1;
+			jun = arr[i];
+			printarr[lev] = arr[i];
+			dfs(lev + 1, n, m);
+			visited[i] = 0;
 	}
 }
 
