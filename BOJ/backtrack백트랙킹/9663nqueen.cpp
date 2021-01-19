@@ -26,7 +26,6 @@ int		is_attackable(int lev, int n)
 		if ((board[i] - i) == (nowy - nowx))
 			return (1);
 	}
-	//cout << "a" << nowx << "\n";
 	return (0);
 }
 
@@ -43,7 +42,6 @@ void	nqueen(int lev, int n)
 		board[lev] = i;
 		if (is_attackable(lev, n) == 0)
 			nqueen(lev + 1, n);
-		//board[lev] = 0;
 	}
 }
 
