@@ -25,6 +25,7 @@ int main(void)
 	}
 
 	sort(v.begin(), v.end(), comp);
+	//sort (s, s + n) second first를 반대로 하면 sort함수 그대로 써도 된다.
 	// for (int i = 0; i < n; i++)
 	// 	cout << v[i].first << v[i].second;
 	// cout << "\n";
