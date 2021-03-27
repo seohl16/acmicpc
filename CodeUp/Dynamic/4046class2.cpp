@@ -28,3 +28,21 @@ int main(void)
 	cout << sumup[n][m];
 }
 
+
+	// for (unsigned int i = 1; i <= n; i++)
+	// {
+	// 	dp[i][i] = 1;
+	// 	sumup[i][i] = 1;
+	// 	for (unsigned int j = 1; j <= i; j++)
+	// 	{
+	// 		if (i == j)
+	// 			dp[i][j] = 1;
+	// 		else
+	// 		{
+	// 			for (int k = 1; k <= j; k++)
+	// 				dp[i][j] += (dp[i - j][k] % 123456789)
+	// 			dp[i][j] %= 123456789;
+	// 		}
+	// 	}
+
+	// }

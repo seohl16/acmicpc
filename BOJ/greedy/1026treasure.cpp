@@ -23,6 +23,7 @@ int main(void)
 		cin >> B[i];
 	sort(A, A + n);
 	sort(B, B+n, compare);
+	//sort(B, B+n, greater<int>()) 내림차순!!!!
 
 	// for (int i = 0; i  < n; i++)
 	// 	cout << B[i];

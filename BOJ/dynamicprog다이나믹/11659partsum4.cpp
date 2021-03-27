@@ -7,6 +7,7 @@ int partsum[100001];
 
 int main(void)
 {
+	//ios:sync~ 쓰면 cin cos 가능
 	int n, m;
 	cin >> n >> m;
 	int a, b;

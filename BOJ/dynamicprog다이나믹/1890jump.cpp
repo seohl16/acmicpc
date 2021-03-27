@@ -1,8 +1,8 @@
 #include <iostream>
 using namespace std;
 
-int arr[101][101];
-int dp[101][101];
+unsigned long arr[101][101];
+unsigned long dp[101][101];
 
 int main(void)
 {
